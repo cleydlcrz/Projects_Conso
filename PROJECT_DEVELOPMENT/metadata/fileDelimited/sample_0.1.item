@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ux85gXQ1EfGxNOKHAoVwjQ" name="sample" dataPackage="_Ux85gnQ1EfGxNOKHAoVwjQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/clint.delacruz/Documents/Qlik/Clients/Zuellig/Email_loader/Output/MaterialMaster.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ux85gnQ1EfGxNOKHAoVwjQ" name="default" dataManager="_Ux85gXQ1EfGxNOKHAoVwjQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ux85g3Q1EfGxNOKHAoVwjQ" id="_Ji18wHQ1EfGxNOKHAoVwjQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ux85hHQ1EfGxNOKHAoVwjQ" label="Source" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ux85hXQ1EfGxNOKHAoVwjQ" label="prodCode" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ux85hnQ1EfGxNOKHAoVwjQ" label="productDescription" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ux85h3Q1EfGxNOKHAoVwjQ" label="Prodc_ZP" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ux85iHQ1EfGxNOKHAoVwjQ" label="Sap_Prodc" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
